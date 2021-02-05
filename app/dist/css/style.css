@@ -346,7 +346,7 @@ button:hover::before, .button:hover::before {
 }
 
 .hero__image {
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("../../../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -372,7 +372,7 @@ button:hover::before, .button:hover::before {
 
 @media (min-width: 64em) {
   .hero__image::before {
-    background-image: url("/images/bg-intro-desktop.svg");
+    background-image: url("../../../images/bg-intro-desktop.svg");
     background-size: 122%;
     background-position: 0% 83%;
     background-repeat: no-repeat;
@@ -385,7 +385,7 @@ button:hover::before, .button:hover::before {
 
 .hero__image::after {
   content: "";
-  background-image: url("/images/image-mockups.png");
+  background-image: url("../../../images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -583,7 +583,7 @@ button:hover::before, .button:hover::before {
   .footer .container {
     display: grid;
     gap: 1rem;
-    grid-template-areas: "logo links1 links2 cta" "social links1 links2 copyright";
+    grid-template-areas: "logo links1 links2 cta" "social links1 links2 copyright";
     grid-template-columns: 2fr 1fr 1fr 3fr;
     grid-template-rows: 1fr auto;
     justify-items: start;
