@@ -20,7 +20,6 @@
 .fade-in {
   animation: fade-in 200ms  ease-in-out forwards;
 }
-
 @keyframes fade-out {
   from {
     visibility: visible;
